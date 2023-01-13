@@ -66,20 +66,21 @@ html {
 }
 .done::after {    
     content: "";
-    width: 70%;
-    height: 70%;
-    background-image: url("completed-stamp-2.png");
-    background-size: cover;
+    width: 110%;
+    height: 110%;
+    background-image: url("sandwich/sauce.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 15%;
+    top: -5%;
 }
 .wrap {
     flex-wrap: wrap;
 }
 .msg {
     margin: -60px 0 20px;
-    color: rgba(236, 179, 126, 0.863);
+    color: rgba(226, 161, 100, 0.863);
     position: sticky;
     top: 100px
 }
