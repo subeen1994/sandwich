@@ -81,6 +81,6 @@ html {
 .msg {
     margin: -60px 0 20px;
     color: rgba(226, 161, 100, 0.863);
-    position: sticky;
-    top: 100px
+    position: relative;
+    top: 0px
 }
