@@ -1,0 +1,83 @@
+/* 강의 중 들어갈 코드 */
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bucket {
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+    position: relative;
+
+    /* 내용 글씨관련 */
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    word-break: keep-all;
+}
+.img1 {
+    background-image: url("sandwich/cheese1.png");
+    color: rgb(73, 73, 73);
+}
+.img2 {
+    background-image: url("sandwich/ham.png");
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    /* -webkit-text-stroke: 0.6px white; */
+}
+.img3 {
+    background-image: url("sandwich/onion.png");
+    color: rgb(73, 73, 73);
+}
+.img4 {
+    background-image: url("sandwich/vege.png");
+    color: rgb(255, 255, 255);
+}
+.img5 {
+    background-image: url("sandwich/tomato.png");
+    color: rgb(255, 255, 255);
+}
+.img6 {
+    background-image: url("sandwich/cheese2.png");
+    color: rgb(73, 73, 73);
+}
+.img7 {
+    background-image: url("sandwich/paprica.png");
+    color: rgb(73, 73, 73);
+}
+.img8 {
+    background-image: url("sandwich/egg.png");
+    color: rgb(73, 73, 73);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.done::after {    
+    content: "";
+    width: 70%;
+    height: 70%;
+    background-image: url("completed-stamp-2.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 15%;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.msg {
+    margin: -10px 0 30px;
+    color: black;
+}
