@@ -35,16 +35,16 @@ html {
     width: 360px;
 }
 .bucket {
-    width: 125px;
-    height: 125px;
+    width: 120px;
+    height: 120px;
     background-size: cover;
     background-position: center;
-    margin: 8px;
+    margin: 10px;
     position: relative;
 
     /* 내용 글씨관련 */
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
     word-break: keep-all;
 }
