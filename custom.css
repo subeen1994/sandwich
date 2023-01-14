@@ -1,11 +1,42 @@
-/* 강의 중 들어갈 코드 */
+/* 사랑해 - 대섹백 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 html {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.bg {
+    background-image: url("sandwich/bread2.png");
+    background-repeat: no-repeat;
+    background-position: center -5%; 
+    background-color: rgb(255, 255, 255);
+}
+.title {
+    color: rgb(194, 113, 81);
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    top: -15px;
+}
+.msg {
+    margin: -60px 0 20px;
+    color: rgba(226, 161, 100, 0.863);
+    font-size: 22px;
+    font-weight: 800;
+    position: relative;
+    top: 0px;
+}
+.row {
+    width: 360px;
+}
 .bucket {
+    width: 120px;
+    height: 120px;
     background-size: cover;
     background-position: center;
     margin: 8px;
@@ -17,6 +48,7 @@ html {
     text-align: center;
     word-break: keep-all;
 }
+
 .img1 {
     background-image: url("sandwich/cheese1.png");
     color: rgb(139, 92, 92);
@@ -25,7 +57,6 @@ html {
     background-image: url("sandwich/ham.png");
     color: rgb(255, 255, 255);
     font-weight: 700;
-    /* -webkit-text-stroke: 0.6px white; */
 }
 .img3 {
     background-image: url("sandwich/onion.png");
@@ -52,17 +83,20 @@ html {
     color: rgb(139, 92, 92);
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .flex-row {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.wrap {
+    flex-wrap: wrap;
 }
 .done::after {    
     content: "";
@@ -74,13 +108,4 @@ html {
     background-position: center;
     position: absolute;
     top: -5%;
-}
-.wrap {
-    flex-wrap: wrap;
-}
-.msg {
-    margin: -60px 0 20px;
-    color: rgba(226, 161, 100, 0.863);
-    position: relative;
-    top: 0px
 }

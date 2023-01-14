@@ -1,52 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2023년 버킷리스트</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
-
-        * {
-            font-family: 'Noto Sans KR', sans-serif;
-        }
-
-        .title {
-            color: rgb(194, 113, 81);
-            /* background-color: rgb(255, 107, 188); 
-            padding: 4px 14px;
-            border-radius: 8px;*/
-            font-size: 60px;
-            font-weight: 800;
-            position: relative;
-            top: -15px;
-           
-
-        }
-
-        .bg {
-            background-image: url("sandwich/bread.png");
-            background-repeat: no-repeat;
-            background-position: center -5%; 
-            background-color: rgb(255, 255, 255);
-        }
-
-        .msg {
-            font-size: 22px;
-            font-weight: 800;
-        }
-
-        .bucket {
-            width: 120px;
-            height: 120px;
-        }
-        
-        .row {
-            width: 360px;
-        }
-    </style>
     <link rel="stylesheet" type="text/css" href="custom.css">
 </head>
 
@@ -54,7 +12,8 @@
     <h1 class="title">⭑2023⭑</h1>
     <p class="msg">BUCKET SANDWICH</p>
     <div class="row flex-row wrap">
-        <div class="bucket img1 center done">코딩 아무거나 배워보기</div>
+        <div class="bucket img1 center" id="bucket1">코딩 아무거나 배워보기</div>
+        <div class="bucket img1 center done" id="bucket1d">코딩 아무거나 배워보기</div>
         <div class="bucket img2 center">운동 4개월 유지</div>
         <div class="bucket img3 center">영어회화 수업듣기</div>
         <div class="bucket img4 center">책 5권 읽기</div>
@@ -64,6 +23,9 @@
         <div class="bucket img8 center">청약통장 만들기</div>
     </div>
 
+    <script>
+        document.getElementById('bucket1').style.display = 'none';
+        // document.getElementById('bucket1d').style.display = 'none';
+    </script>
 </body>
-
 </html>
